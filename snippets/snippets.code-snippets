@@ -1,0 +1,377 @@
+{
+    // JSTL core snippets
+
+    "c:forEach..begin..end":{
+        "prefix": "cforEach",
+        "body": "<c:forEach var=\"\" begin=\"\" end=\"\"></c:forEach>",
+        "description": "JSTL for each"
+    },
+    "c:forEach":{
+        "prefix": "cforEach",
+        "body": "<c:forEach var=\"\" items=\"${}\"></c:forEach>",
+        "description": "JSTL for each"
+    },
+    "c:if":{
+        "prefix": "cif",
+        "body": "<c:if test=\"${}\"></c:if>",
+        "description": "JSTL if"
+    },
+    "c:choose":{
+        "prefix": "cchoose",
+        "body": "<c:choose></c:choose>",
+        "description": "JSTL choose"
+    },
+    "c:choose when...otherwise":{
+        "prefix": "cchoose",
+        "body": "<c:choose>\n\t<c:when test=\"${}\" >\n\t</c:when>\n\t<c:when test=\"${}\" >\n\t</c:when>\n\t<c:when test=\"${}\" >\n\t</c:when>\n\t<c:otherwise>\n\t</c:otherwise>\n</c:choose>",
+        "description": "JSTL choose with when and otherwise"
+    },
+    "c:choose when otherwise":{
+        "prefix": "cchoose",
+        "body": "<c:choose>\n\t<c:when test=\"${}\" >\n\t</c:when>\n\t<c:otherwise>\n\t</c:otherwise>\n</c:choose>",
+        "description": "JSTL choose with when and otherwise"
+    },
+    "c:when":{
+        "prefix": "cwhen",
+        "body": "<c:when test=\"${}\" >\n\t</c:when>",
+        "description": "JSTL when"
+    },
+    "c:otherwise":{
+        "prefix": "cotherwise",
+        "body": "<c:otherwise>\n\t</c:otherwise>",
+        "description": "JSTL otherwise"
+    },
+    "$":{
+        "prefix": "$",
+        "body": "${}",
+        "description": "JSTL $"
+    },
+    "c:set":{
+        "prefix": "cset",
+        "body": "<c:set var=\"\" value=\"${}\"/>",
+        "description": "JSTL set one line"
+    },
+    "c:set..":{
+        "prefix": "cset",
+        "body": "<c:set var=\"\"></c:set>",
+        "description": "JSTL set"
+    },
+    "c:set...":{
+        "prefix": "cset",
+        "body": "<c:set var=\"\" scope=\"\" value=\"\"/>",
+        "description": "JSTL set with scope"
+    },
+    "c:out":{
+        "prefix": "cout",
+        "body": "<c:out value=\"${}\"/>",
+        "description": "JSTL out"
+    },
+    "c:import":{
+        "prefix": "cimport",
+        "body": "<c:import var=\"\" url=\"\"/>",
+        "description": "JSTL import"
+    },
+    "c:remove":{
+        "prefix": "cremove",
+        "body": "<c:remove var=\"\"/>",
+        "description": "JSTL remove"
+    },
+    "c:catch":{
+        "prefix": "ccatch",
+        "body": "<c:catch var =\"\"></c:catch>",
+        "description": "JSTL catch"
+    },
+    "c:forTokens":{
+        "prefix": "cforTokens",
+        "body": "<c:forTokens items=\"\" delims=\"\" var=\"\"></c:forTokens>",
+        "description": "JSTL for tokens"
+    },
+    "c:param":{
+        "prefix": "cparam",
+        "body": "<c:param name=\"\" value=\"\"/>",
+        "description": "JSTL url param"
+    },
+    "c:url":{
+        "prefix": "curl",
+        "body": "<c:url value=\"\" var=\"\"></c:url>",
+        "description": "JSTL url "
+    },
+    "c:redirect":{
+        "prefix": "credirect",
+        "body": "<c:redirect url=\"\"/>",
+        "description": "JSTL redirect"
+    },
+
+    // JSTL function snippets
+
+    "fn:contains":{
+        "prefix": "fncontains",
+        "body": "fn:contains(null,null)",
+        "description": "JSTL function contains:\nboolean contains(java.lang.String, java.lang.String)"
+    },
+
+    "fn:containsIgnoreCase":{
+        "prefix": "fncontainsIgnoreCase",
+        "body": "fn:containsIgnoreCase(null,null)",
+        "description": "JSTL function contains ignore case:\nboolean containsIgnoreCase(java.lang.String, java.lang.String)"
+    },
+
+    "fn:endsWith":{
+        "prefix": "fnendsWith",
+        "body": "fn:endsWith(null,null)",
+        "description": "JSTL function ends with:\nboolean endsWith(java.lang.String, java.lang.String)"
+    },
+
+    "fn:escapeXml":{
+        "prefix": "fnescapeXml",
+        "body": "fn:escapeXml(null)",
+        "description": "JSTL escape xml:\njava.lang.String escapeXml(java.lang.String)"
+    },
+
+    "fn:indexOf":{
+        "prefix": "fnindexOf",
+        "body": "fn:indexOf(null,null)",
+        "description": "JSTL index of:\nint indexOf(java.lang.String, java.lang.String)"
+    },
+
+    "fn:trim":{
+        "prefix": "fntrim",
+        "body": "fn:trim(null)",
+        "description": "JSTL trim:\njava.lang.String trim(java.lang.String)"
+    },
+
+    "fn:startsWith":{
+        "prefix": "fnstartsWith",
+        "body": "fn:startsWith(null,null)",
+        "description": "JSTL starts with:\nboolean fn:startsWith(String input, String prefix)"
+    },
+
+    "fn:split":{
+        "prefix": "fnsplit",
+        "body": "fn:split(null,null)",
+        "description": "JSTL split:\njava.lang.String[] split(java.lang.String, java.lang.String)"
+    },
+
+    "fn:toLowerCase":{
+        "prefix": "fntoLowerCase",
+        "body": "fn:toLowerCase(null,null)",
+        "description": "JSTL to lower case:\nString fn:toLowerCase(String  input)"
+    },
+
+    "fn:toUpperCase":{
+        "prefix": "fntoUpperCase",
+        "body": "fn:toUpperCase(null,null)",
+        "description": "JSTL to upper case:\nString fn:toUpperCase(String  input)"
+    },
+
+    "fn:substring":{
+        "prefix": "fnsubstring",
+        "body": "fn:substring(null, 0, 0)",
+        "description": "JSTL function substring:\nString fn:substring(String inputstring, int start, int end)"
+    },
+
+    "fn:substringAfter":{
+        "prefix": "fnsubstringAfter",
+        "body": "fn:substringAfter(null, null)",
+        "description": "JSTL function substring after:\nString fn:substringAfter(String input, String afterstring)"
+    },
+
+    "fn:substringBefore":{
+        "prefix": "fnsubstringBefore",
+        "body": "fn:substringBefore(null, null)",
+        "description": "JSTL function substring before:\nString fn:substringBefore(String input, String beforestring)"
+    },
+
+    "fn:length":{
+        "prefix": "fnlength",
+        "body": "fn:length(null)",
+        "description": "JSTL function length:\nint length(java.lang.Object)"
+    },
+
+    "fn:replace":{
+        "prefix": "fnreplace",
+        "body": "fn:replace(null, null, null)",
+        "description": "JSTL function replace\nString fn:replace(String input, String search_for, String replace_with)"
+    },
+
+    // JSTL formatting snippets
+
+    "fmt:parseNumber":{
+        "prefix": "fmtparseNumber",
+        "body": "<fmt:parseNumber var=\"\" integerOnly=\"\" type=\"\" value=\"${}\" />",
+        "description": "JSTL parse number:\n<fmt:parseNumber attributes> body content </fmt:parseNumber>"
+    },
+
+    "fmt:timeZone":{
+        "prefix": "fmttimeZone",
+        "body": "<fmt:timeZone value=\"${}\"></fmt:timeZone>",
+        "description": "JSTL time zone:\n<fmt:timeZone attributes> body content </fmt:timeZone>"
+    },
+
+    "fmt:formatNumber":{
+        "prefix": "fmtformatNumber",
+        "body": "<fmt:formatNumber value=\"${}\" type=\"\" />",
+        "description": "JSTL format number:\nother attributes:groupingUsed,maxIntegerDigits,maxFractionDigits,pattern"
+    },
+
+    "fmt:parseDate":{
+        "prefix": "fmtparseDate",
+        "body": "<fmt:parseDate value=\"${}\" var=\"\"  pattern=\"dd-MM-yyyy\" />",
+        "description": "JSTL parse date"
+    },
+
+    "fmt:bundle":{
+        "prefix": "fmtbundle",
+        "body": "<fmt:bundle basename=\"Resource Bundle Name\" prefix=\"msg\"></fmt:bundle>",
+        "description": "JSTL bundle"
+    },
+
+    "fmt:setTimeZone":{
+        "prefix": "fmtsetTimeZone",
+        "body": "<fmt:setTimeZone value=\"value\" var=\"var name\" scope=\"scope\"/>",
+        "description": "JSTL set time zone"
+    },
+
+    "fmt:setBundle":{
+        "prefix": "fmtsetBundle",
+        "body": "<fmt:setBundle basename=\"ResourceBundle Name\" var=\"value\"/>",
+        "description": "JSTL set bundle"
+    },
+
+    "fmt:message":{
+        "prefix": "fmtmessage",
+        "body": "<fmt:message key=\"\" bundle=\"${}\"/>",
+        "description": "JSTL message"
+    },
+
+    "fmt:formatDate":{
+        "prefix": "fmtformatDate",
+        "body": "<fmt:formatDate type=\"\" dateStyle=\"\" timeStyle=\"\"  value=\"${}\" />",
+        "description": "JSTL format date"
+    },
+
+    // JSTL XML snippets
+
+    "x:out":{
+        "prefix": "xout",
+        "body": "<x:out select=\"\" />",
+        "description": "JSTL xml out"
+    },
+
+    "x:parse":{
+        "prefix": "xparse",
+        "body": "<x:parse xml=\"${}\" var=\"\"/>",
+        "description": "JSTL xml parse"
+    },
+
+    "x:set":{
+        "prefix": "xset",
+        "body": "<x:set var=\"\" select=\"\"/>",
+        "description": "JSTL xml set"
+    },
+
+    "x:choose":{
+        "prefix": "xchoose",
+        "body": "<x:choose></x:choose>",
+        "description": "JSTL xml choose"
+    },
+
+    "x:when":{
+        "prefix": "xwhen",
+        "body": "<x:when select=\"\"></x:when>",
+        "description": "JSTL xml when"
+    },
+
+    "x:otherwise":{
+        "prefix": "xotherwise",
+        "body": "<x:otherwise></x:otherwise>",
+        "description": "JSTL xml otherwise"
+    },
+
+    "x:if":{
+        "prefix": "xif",
+        "body": "<x:if select=\"\"></x:if>",
+        "description": "JSTL xml if"
+    },
+
+    "x:transform":{
+        "prefix": "xtransform",
+        "body": "<x:transform xml=\"${}\" xslt=\"${}\" />",
+        "description": "JSTL xml transform"
+    },
+
+    "x:param":{
+        "prefix": "xparam",
+        "body": "<x:param name=\"\" value=\"\"></x:param>",
+        "description": "JSTL xml param"
+    },
+
+    "sql:setDataSource":{
+        "prefix": "sqlsetDataSource",
+        "body": "<sql:setDataSource var=\"\" driver=\"\"  url=\"\"  user=\"\"  password=\"\"/>",
+        "description": "JSTL sql set data source"
+    },
+
+    "sql:query":{
+        "prefix": "sqlquery",
+        "body": "<sql:query dataSource=\"${}\" var=\"\"></sql:query>",
+        "description": "JSTL sql query"
+    },
+
+    "sql:update":{
+        "prefix": "sqlupdate",
+        "body": "<sql:update dataSource=\"${}\" var=\"\"></sql:update>",
+        "description": "JSTL sql update"
+    },
+
+    "sql:param":{
+        "prefix": "sqlparam",
+        "body": "<sql:param value=\"${}\" />",
+        "description": "JSTL sql param"
+    },
+
+    "sql:dateParam":{
+        "prefix": "sqldateParam",
+        "body": "<sql:dateParam value=\"\" type=\"\" />",
+        "description": "JSTL sql date param"
+    },
+    
+    "sql:transaction":{
+        "prefix": "sqltransaction",
+        "body": "<sql:transaction dataSource=\"${}\"></sql:transaction>"
+    },
+
+    // JSTL taglib snippets
+
+    "jstl:core":{
+        "prefix": "jstlcore",
+        "body": "<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>",
+        "description": "JSTL core taglib"
+    },
+
+    "jstl:functions":{
+        "prefix": "jstlfunctions",
+        "body": "<%@ taglib uri=\"http://java.sun.com/jsp/jstl/functions\" prefix=\"fn\" %>",
+        "description": "JSTL functions taglib"
+    },
+
+    "jstl:fmt":{
+        "prefix": "jstlfmt",
+        "body": "<%@ taglib uri=\"http://java.sun.com/jsp/jstl/functions\" prefix=\"fn\" %>",
+        "description": "JSTL formatting taglib"
+    },
+
+    "jstl:xml":{
+        "prefix": "jstlxml",
+        "body": "<%@ taglib uri=\"http://java.sun.com/jsp/jstl/xml\" prefix=\"x\" %>",
+        "description": "JSTL xml taglib"
+    },
+
+    "jstl:sql":{
+        "prefix": "jstlsql",
+        "body": "<%@ taglib uri=\"http://java.sun.com/jsp/jstl/sql\" prefix=\"sql\" %>",
+        "description": "JSTL sql taglib"
+    },
+
+
+}
