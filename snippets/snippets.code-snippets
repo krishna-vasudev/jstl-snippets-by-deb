@@ -338,7 +338,8 @@
     
     "sql:transaction":{
         "prefix": "sqltransaction",
-        "body": "<sql:transaction dataSource=\"${}\"></sql:transaction>"
+        "body": "<sql:transaction dataSource=\"${}\"></sql:transaction>",
+        "description": "JSTL sql transaction"
     },
 
     // JSTL taglib snippets

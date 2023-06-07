@@ -7,57 +7,23 @@ JSTL snippets by deb contains almost all possible JSTL snippets. It is easy to a
   It works only for HTML language mode which is default for jsp. If it is different just change it from the bottom right corner.
 
 ## Features
+![](https://github.com/krishna-vasudev/jstl-snippets-by-deb/blob/main/images/Screen%20Recording%20-%20Made%20with%20FlexClip.gif?raw=true)
 
 
+<table border=1><tr><td>JSTL tag</td><td>Shortcut</td><td>Description</td></tr><tr><td>c:forEach..begin..end</td><td>cforEach</td><td>JSTL for each</td></tr><tr><td>c:forEach</td><td>cforEach</td><td>JSTL for each</td></tr><tr><td>c:if</td><td>cif</td><td>JSTL if</td></tr><tr><td>c:choose</td><td>cchoose</td><td>JSTL choose</td></tr><tr><td>c:choose when...otherwise</td><td>cchoose</td><td>JSTL choose with when and otherwise</td></tr><tr><td>c:choose when otherwise</td><td>cchoose</td><td>JSTL choose with when and otherwise</td></tr><tr><td>c:when</td><td>cwhen</td><td>JSTL when</td></tr><tr><td>c:otherwise</td><td>cotherwise</td><td>JSTL otherwise</td></tr><tr><td>$</td><td>$</td><td>JSTL $</td></tr><tr><td>c:set</td><td>cset</td><td>JSTL set one line</td></tr><tr><td>c:set..</td><td>cset</td><td>JSTL set</td></tr><tr><td>c:set...</td><td>cset</td><td>JSTL set with scope</td></tr><tr><td>c:out</td><td>cout</td><td>JSTL out</td></tr><tr><td>c:import</td><td>cimport</td><td>JSTL import</td></tr><tr><td>c:remove</td><td>cremove</td><td>JSTL remove</td></tr><tr><td>c:catch</td><td>ccatch</td><td>JSTL catch</td></tr><tr><td>c:forTokens</td><td>cforTokens</td><td>JSTL for tokens</td></tr><tr><td>c:param</td><td>cparam</td><td>JSTL url param</td></tr><tr><td>c:url</td><td>curl</td><td>JSTL url </td></tr><tr><td>c:redirect</td><td>credirect</td><td>JSTL redirect</td></tr><tr><td>fn:contains</td><td>fncontains</td><td>JSTL function contains:</td></tr><tr><td>boolean contains(java.lang.String, java.lang.String)</td></tr><tr><td>fn:containsIgnoreCase</td><td>fncontainsIgnoreCase</td><td>JSTL function contains ignore case:</td></tr><tr><td>boolean containsIgnoreCase(java.lang.String, java.lang.String)</td></tr><tr><td>fn:endsWith</td><td>fnendsWith</td><td>JSTL function ends with:</td></tr><tr><td>boolean endsWith(java.lang.String, java.lang.String)</td></tr><tr><td>fn:escapeXml</td><td>fnescapeXml</td><td>JSTL escape xml:</td></tr><tr><td>java.lang.String escapeXml(java.lang.String)</td></tr><tr><td>fn:indexOf</td><td>fnindexOf</td><td>JSTL index of:</td></tr><tr><td>int indexOf(java.lang.String, java.lang.String)</td></tr><tr><td>fn:trim</td><td>fntrim</td><td>JSTL trim:</td></tr><tr><td>java.lang.String trim(java.lang.String)</td></tr><tr><td>fn:startsWith</td><td>fnstartsWith</td><td>JSTL starts with:</td></tr><tr><td>boolean fn:startsWith(String input, String prefix)</td></tr><tr><td>fn:split</td><td>fnsplit</td><td>JSTL split:</td></tr><tr><td>java.lang.String[] split(java.lang.String, java.lang.String)</td></tr><tr><td>fn:toLowerCase</td><td>fntoLowerCase</td><td>JSTL to lower case:</td></tr><tr><td>String fn:toLowerCase(String  input)</td></tr><tr><td>fn:toUpperCase</td><td>fntoUpperCase</td><td>JSTL to upper case:</td></tr><tr><td>String fn:toUpperCase(String  input)</td></tr><tr><td>fn:substring</td><td>fnsubstring</td><td>JSTL function substring:</td></tr><tr><td>String fn:substring(String inputstring, int start, int end)</td></tr><tr><td>fn:substringAfter</td><td>fnsubstringAfter</td><td>JSTL function substring after:</td></tr><tr><td>String fn:substringAfter(String input, String afterstring)</td></tr><tr><td>fn:substringBefore</td><td>fnsubstringBefore</td><td>JSTL function substring before:</td></tr><tr><td>String fn:substringBefore(String input, String beforestring)</td></tr><tr><td>fn:length</td><td>fnlength</td><td>JSTL function length:</td></tr><tr><td>int length(java.lang.Object)</td></tr><tr><td>fn:replace</td><td>fnreplace</td><td>JSTL function replace</td></tr><tr><td>String fn:replace(String input, String search_for, String replace_with)</td></tr><tr><td>fmt:parseNumber</td><td>fmtparseNumber</td><td>JSTL parse number:</td></tr><tr><td><fmt:parseNumber attributes> body content </fmt:parseNumber></td></tr><tr><td>fmt:timeZone</td><td>fmttimeZone</td><td>JSTL time zone:</td></tr><tr><td><fmt:timeZone attributes> body content </fmt:timeZone></td></tr><tr><td>fmt:formatNumber</td><td>fmtformatNumber</td><td>JSTL format number:</td></tr><tr><td>other attributes:groupingUsed,maxIntegerDigits,maxFractionDigits,pattern</td></tr><tr><td>fmt:parseDate</td><td>fmtparseDate</td><td>JSTL parse date</td></tr><tr><td>fmt:bundle</td><td>fmtbundle</td><td>JSTL bundle</td></tr><tr><td>fmt:setTimeZone</td><td>fmtsetTimeZone</td><td>JSTL set time zone</td></tr><tr><td>fmt:setBundle</td><td>fmtsetBundle</td><td>JSTL set bundle</td></tr><tr><td>fmt:message</td><td>fmtmessage</td><td>JSTL message</td></tr><tr><td>fmt:formatDate</td><td>fmtformatDate</td><td>JSTL format date</td></tr><tr><td>x:out</td><td>xout</td><td>JSTL xml out</td></tr><tr><td>x:parse</td><td>xparse</td><td>JSTL xml parse</td></tr><tr><td>x:set</td><td>xset</td><td>JSTL xml set</td></tr><tr><td>x:choose</td><td>xchoose</td><td>JSTL xml choose</td></tr><tr><td>x:when</td><td>xwhen</td><td>JSTL xml when</td></tr><tr><td>x:otherwise</td><td>xotherwise</td><td>JSTL xml otherwise</td></tr><tr><td>x:if</td><td>xif</td><td>JSTL xml if</td></tr><tr><td>x:transform</td><td>xtransform</td><td>JSTL xml transform</td></tr><tr><td>x:param</td><td>xparam</td><td>JSTL xml param</td></tr><tr><td>sql:setDataSource</td><td>sqlsetDataSource</td><td>JSTL sql set data source</td></tr><tr><td>sql:query</td><td>sqlquery</td><td>JSTL sql query</td></tr><tr><td>sql:update</td><td>sqlupdate</td><td>JSTL sql update</td></tr><tr><td>sql:param</td><td>sqlparam</td><td>JSTL sql param</td></tr><tr><td>sql:dateParam</td><td>sqldateParam</td><td>JSTL sql date param</td></tr><tr><td>sql:transaction</td><td>sqltransaction</td><td>JSTL sql transaction</td></tr><tr><td>jstl:core</td><td>jstlcore</td><td>JSTL core taglib</td></tr><tr><td>jstl:functions</td><td>jstlfunctions</td><td>JSTL functions taglib</td></tr><tr><td>jstl:fmt</td><td>jstlfmt</td><td>JSTL formatting taglib</td></tr><tr><td>jstl:xml</td><td>jstlxml</td><td>JSTL xml taglib</td></tr><tr><td>jstl:sql</td><td>jstlsql</td><td>JSTL sql taglib</td></tr></table>
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+There are no extra requirements , you just need to have support for HTML language mode in vscode.
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+This is a very new extension. The initial version is released.
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
+Initial release of the extension.
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Know the author
+* Connect with me on [LinkedIn](https://www.linkedin.com/in/debraj-bhal/). I did love to hear how you feel using this extension.
