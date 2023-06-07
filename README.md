@@ -25,5 +25,9 @@ This is a very new extension. The initial version is released.
 
 Initial release of the extension.
 
+### 0.0.2
+
+Added a icon for the extension.
+
 ## Know the author
 * Connect with me on [LinkedIn](https://www.linkedin.com/in/debraj-bhal/). I did love to hear how you feel using this extension.
